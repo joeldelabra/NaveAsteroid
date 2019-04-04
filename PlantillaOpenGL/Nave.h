@@ -9,7 +9,7 @@ public: Nave();
 		vec3 coordenadas;
 		float angulo;
 		float velocidadAngular = 2.0f;
-		float velocidadNormal = 0.1f;
+		float velocidadNormal = 0.001f;
 		void rotar(Direccion direccion);
 		void avanzar();
 		void actualizarMatrizTransformacion();
